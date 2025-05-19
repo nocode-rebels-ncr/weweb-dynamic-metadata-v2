@@ -3,11 +3,11 @@ export const config = {
   patterns: [
       {
           pattern: "/?post=+",
-          metaDataEndpoint: "https://xsrr-l2ye-dpbj.f2.xano.io/api:Coq7oZJp/posts/get_single/{post_id}"
+          metaDataEndpoint: "https://xsrr-l2ye-dpbj.f2.xano.io/api:Coq7oZJp/posts/get_single/{post_id}/meta"
       },
       {
           pattern: "/post/[^/]+",
-          metaDataEndpoint: "https://xsrr-l2ye-dpbj.f2.xano.io/api:Coq7oZJp/posts/get_single/{post_id}"
+          metaDataEndpoint: "https://xsrr-l2ye-dpbj.f2.xano.io/api:Coq7oZJp/posts/get_single/{post_id}/meta"
       }
       // Add more patterns and their metadata endpoints as needed
   ]
