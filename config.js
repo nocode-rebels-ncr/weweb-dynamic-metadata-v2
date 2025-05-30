@@ -1,5 +1,5 @@
 export const config = {
-  domainSource: "https://www.heyanon.io", // Your WeWeb app preview link
+  domainSource: "https://6738af62-2b3e-4202-8a3d-3c5a9b2fba3e.weweb-preview.io", // Your WeWeb app preview link
   patterns: [
       {
           pattern: "/?post=[^/]+",
